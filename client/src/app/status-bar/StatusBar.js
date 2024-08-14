@@ -23,6 +23,9 @@ export function StatusBar(props) {
       </div>
       <div className="status-bar__app">
         <Slot name="status-bar__app" />
+        <button class="btn update-btn" title="Update">
+          Update
+        </button>
       </div>
     </footer>
   );
